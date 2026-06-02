@@ -90,7 +90,6 @@ cd Cookie-Vault-Hacker
 ├── popup.html      # The user interface layout
 ├── popup.js        # The logic handling button clicks and UI updates
 ├── background.js   # The heavy lifting engine (cookie parsing, payload generation)
-└── icons/          # Extension icons
 ```
 
 ---
