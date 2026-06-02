@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "🍪 Cookie Vault Hacker 🍪",
+  "version": "1.7",
+  "description": "🕵️ Steals all active site cookies and packages them for download. 📥",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "🍪"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "cookies",
+    "tabs",
+    "downloads"
+  ],
+  "host_permissions": [
+    "*://*/*"  // Relying ONLY on the powerful wildcard permission
+  ]
+  // NO content_scripts array present
+}
